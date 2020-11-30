@@ -44,7 +44,7 @@ const LearningModule = ({setGameStatus}) => {
       { currentQuestion.title &&
         <>
           <div className="learningModule__header">
-            <div className="learningModule__title">
+         <div className="learningModule__title">
               { currentQuestion.title }
             </div>
             <div className="learningModule__subHeader">
