@@ -35,7 +35,7 @@
     @media only screen and (max-width: $mobile) {
         background-color: unset;
         box-shadow: unset;
-      }
+    }
   }
 
   &__selections {
@@ -53,6 +53,9 @@
     height: 50px;
     .submitButton {
       float: right;
+      @media only screen and (max-width: $mobile) {
+        float: none;
+      }
     }
   }
 }

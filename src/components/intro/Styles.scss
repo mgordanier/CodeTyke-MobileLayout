@@ -2,7 +2,7 @@
 @import '../../styles/utils/mixins';
 
 
-.introContainer { 
+.introContainer {
     text-align: center;
     background-color: white;
     padding: 40px 0;
@@ -20,9 +20,9 @@
         @include subheader;
     }
 
-    &__submitButton { 
+    &__submitButton {
         margin-top: 40px;
         display: inline-block;
     }
-   
+
 }
